@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fettle Fitt — All-Women's Group Fitness Studio, San Antonio</title>
+  <meta name="description" content="Fettle Fitt is San Antonio's all-women's group fitness studio: a weekly strength and conditioning split, plus virtual classes, in a supportive community." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Fettle Fitt" />
+  <meta property="og:title" content="Fettle Fitt — All-Women's Group Fitness Studio, San Antonio" />
+  <meta property="og:description" content="Fettle Fitt is San Antonio's all-women's group fitness studio: a weekly strength and conditioning split, plus virtual classes, in a supportive community." />
+  <meta property="og:url" content="https://fettlefitt.com/" />
+  <meta property="og:image" content="https://fettlefitt.com/assets/img/hero-poster.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fettle Fitt — All-Women's Group Fitness Studio, San Antonio" />
+  <meta name="twitter:description" content="Fettle Fitt is San Antonio's all-women's group fitness studio: a weekly strength and conditioning split, plus virtual classes, in a supportive community." />
+  <meta name="twitter:image" content="https://fettlefitt.com/assets/img/hero-poster.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Big+Shoulders+Display:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon-180.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="logo" href="index.html"><img class="logo__mark" src="assets/img/logo-wordmark-black.png" alt="Fettle Fitt" /></a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul class="main-nav__links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="schedule.html">Classes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero: looping background video + title overlay.
+         Compressed from the ~227MB source (see website-spec.md §4):
+         12s clip, 1280px wide, muted, no audio track. -->
+    <section class="hero">
+      <video
+        class="hero__media"
+        autoplay
+        loop
+        muted
+        playsinline
+        poster="assets/img/hero-poster.jpg"
+      >
+        <source src="assets/video/hero.webm" type="video/webm" />
+        <source src="assets/video/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__scrim"></div>
+      <div class="hero__content">
+        <h1 class="hero__title"><img class="hero__logo" src="assets/img/logo-wordmark-sand.png" alt="Fettle Fitt" /></h1>
+        <p class="hero__tagline">San Antonio's all-women's group fitness studio. Show up for yourself — move with purpose.</p>
+        <div class="hero__actions">
+          <a class="btn btn-primary" href="schedule.html">Book a Class</a>
+          <a class="btn btn-outline" href="membership.html">View Membership</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head section-head--center">
+          <span class="eyebrow">Our Approach</span>
+          <h2>Functional strength. Real community.</h2>
+          <p>A structured weekly strength split — lower body, push, pull, and full body — built around women supporting women. Every class scales to your level, no matter where you're starting from.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card">
+            <h3>Strength</h3>
+            <p>Barbell and bodyweight work split across the week — Booty Builder, Push Power, Total Strength, and Peach &amp; Pull — that builds real functional strength, not just a number on a scale.</p>
+          </div>
+          <div class="card">
+            <h3>Conditioning</h3>
+            <p>Fettle Friday closes out the week with full-body conditioning — strength, endurance, and cardio in one session.</p>
+          </div>
+          <div class="card">
+            <h3>Community</h3>
+            <p>A studio where you're known by name — supported, celebrated, and challenged alongside women who get it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="wrap about-grid">
+        <div class="media-placeholder" aria-hidden="true">Studio photo</div>
+        <div>
+          <span class="eyebrow">Meet the Founder</span>
+          <h2>Hello, I'm Krista Miller.</h2>
+          <p>I'm so excited to be part of your journey. Fettle Fitt is more than just workouts — it's a community where women can feel supported, celebrated, and challenged, building strength, confidence, and a healthier mindset, inside and out.</p>
+          <a class="btn btn-ghost" href="about.html">Read our story →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap section-head--center">
+        <span class="eyebrow">Membership</span>
+        <h2>Find your plan</h2>
+        <p>From $109/mo virtual-only to unlimited in-person plus virtual access — pick the cadence that fits your week.</p>
+        <a class="btn btn-primary" href="membership.html">View All Plans</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="logo" href="index.html"><img class="logo__mark" src="assets/img/logo-wordmark-sand.png" alt="Fettle Fitt" /></a>
+        <p style="margin-top: 1em; opacity: 0.75;">San Antonio's all-women's group fitness studio.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="schedule.html">Classes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="membership.html">Membership</a></li>        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:fettlefitt@gmail.com">fettlefitt@gmail.com</a></li>
+          <li><a href="contact.html">Contact / Location</a></li>
+          <li><a href="https://www.instagram.com/fettlefitt/" target="_blank" rel="noopener noreferrer">Instagram</a></li><li><a href="https://www.tiktok.com/@fettle_fitt" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Fettle Fitt. All rights reserved.</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
