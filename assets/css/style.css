@@ -142,6 +142,13 @@ p { margin: 0 0 1em; color: var(--color-muted); }
   padding-right: 0;
 }
 
+.btn-trial {
+  background: #1b1b1b;
+  border-color: #1b1b1b;
+  color: var(--color-accent);
+}
+.btn-trial:hover { background: var(--color-accent); color: #1b1b1b; }
+
 .btn-block { width: 100%; }
 
 /* Header / nav */
